@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/10/02 12:19:47.334,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 12:41:30.540,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\BuscaCEP\Unit1.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/02 12:41:30.540,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\BuscaCEP\Unit1.fmx=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2019/10/02 12:41:32.776,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\BuscaCEP\Project1.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

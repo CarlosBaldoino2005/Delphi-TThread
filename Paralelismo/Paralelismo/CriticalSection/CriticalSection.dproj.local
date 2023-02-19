@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/10/03 10:31:11.783,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/03 10:32:24.400,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\CriticalSection.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2019/10/03 14:34:42.419,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\CriticalSection\Unit1.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/10/03 14:34:42.419,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\CriticalSection\Unit1.dfm=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2019/10/03 14:34:45.462,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\CriticalSection\CriticalSection.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\CriticalSection.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

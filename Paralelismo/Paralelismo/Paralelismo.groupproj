@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{10515B76-645B-4279-9308-6630805640C5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Task\TTask.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Future\Future.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TTask">
+        <MSBuild Projects="Task\TTask.dproj"/>
+    </Target>
+    <Target Name="TTask:Clean">
+        <MSBuild Projects="Task\TTask.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TTask:Make">
+        <MSBuild Projects="Task\TTask.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Future">
+        <MSBuild Projects="Future\Future.dproj"/>
+    </Target>
+    <Target Name="Future:Clean">
+        <MSBuild Projects="Future\Future.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Future:Make">
+        <MSBuild Projects="Future\Future.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TTask;Future"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TTask:Clean;Future:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TTask:Make;Future:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

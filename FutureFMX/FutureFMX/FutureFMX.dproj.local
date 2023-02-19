@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2019/10/04 11:10:59.314,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/04 11:16:07.604,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\FutureFMX\Unit3.pas=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/10/04 11:16:07.604,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\FutureFMX\Unit3.fmx=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.fmx</Transaction>
+    <Transaction>2019/10/04 11:16:13.879,D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\FutureFMX\FutureFMX.dproj=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+  <ActiveMobileDevice>   <NoProfile iOSSimulator="iPhone5"/>
+  </ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,64 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 515
+  ClientWidth = 904
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 16
+    Top = 8
+    Width = 144
+    Height = 33
+    Caption = 'BUSCAR DADOS'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object DBGrid1: TDBGrid
+    Left = 8
+    Top = 64
+    Width = 888
+    Height = 443
+    DataSource = DataSource1
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=D:\Bancos\Firebird\GUARA_BARREIRAS.fdb'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'DriverID=FB')
+    Connected = True
+    LoginPrompt = False
+    Left = 696
+    Top = 160
+  end
+  object FDTable1: TFDTable
+    Connection = FDConnection1
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.UpdateTableName = 'NOTA_FISCAL'
+    TableName = 'NOTA_FISCAL'
+    Left = 696
+    Top = 248
+  end
+  object DataSource1: TDataSource
+    DataSet = FDTable1
+    Left = 696
+    Top = 336
+  end
+end

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/09/26 10:27:43.000.711,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2019/09/26 10:32:50.000.915,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2019/09/26 11:14:33.000.918,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\ChaningTaks\Unit2.pas</Transaction>
+    <Transaction>2019/09/26 11:14:33.000.918,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\ChaningTaks\Unit2.dfm</Transaction>
+    <Transaction>2019/09/26 11:14:35.000.805,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.dfm=D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\ChaningTaks\Unit3.dfm</Transaction>
+    <Transaction>2019/09/26 11:14:35.000.805,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit3.pas=D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\ChaningTaks\Unit3.pas</Transaction>
+    <Transaction>2019/09/26 11:14:53.000.266,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\Projetos\Cursos\Recursos da Linguagem Delphi\Paralelismo\ChaningTaks\Project2.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
